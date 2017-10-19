@@ -1,0 +1,489 @@
+body {
+	font-family: Stone Sans II ITC Pro;
+}
+
+header {
+	background: #E11B22;
+	width: 1004px;
+	height: 216px;
+	margin: 0 auto;
+}
+
+section {
+	width: 1004px;
+	height: 410px;
+	border: 1px solid #7AB800;
+	margin: 0 auto;
+	display: flex;
+
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px auto;
+	width: 1004px;
+	height: 100px;
+}
+
+@media only screen and (max-width: 600px) { 
+
+	/*body*/
+	*[class].body-mini{ 
+		margin: 0 !important; 
+		/*flex-wrap: nowrap !important;*/
+	}
+	/*header*/
+  *[class].headerw { width: 550px !important;}
+  *[class].headerh { height: 200px !important; }
+  *[class].headerm {margin: 0 auto !important;}
+	/*texto header*/
+  *[class].texto-1-min{ font-size: 35px !important; }
+  *[class].texto-2-min{ font-size: 104px !important; }
+  *[class].tm{ margin-left: 30px !important; }
+  /*section*/
+  *[class].section_w550{ width: 550px !important; }
+  *[class].section_h205 { height: 205px !important; }
+	/*caja*/
+	*[class].caja_w200{ width: 200px !important; }
+  *[class].caja_h205 { height: 205px !important; }
+	/*imagenes descripciones*/
+	*[class].img_w161{ width: 161px !important; }
+  *[class].img_h39 { height: 39px !important; }
+  *[class].img_ml {margin-left: -130px !important;}
+  /*mochila*/
+  *[class].mochila_mini{ 
+  	margin: 10px 0 0 182px !important;
+  	height: 183px !important; 
+		width: 141px !important;
+  }
+  /*imagen caja de reserva*/
+  *[class].caja-reserva-mini{ 
+  	width: 246px !important; 
+		height: 205px !important;
+  }
+  /*texto caja de reserva*/
+  *[class].texto-caja-reserva-mini{ 
+  	font-size: 13px !important; 
+		width: 54px !important;
+		height: 30px !important;
+		margin: 155px -26px !important;
+  }
+  /*usa mensajes de texto*/
+  *[class].mensaje-texto-mini{ 
+  	font-size: 13px !important; 
+		width: 90px !important;
+		height: 30px !important;
+  }
+  /*numeros de emergencia*/
+  *[class].mensaje-emergencia-mini{ 
+  	font-size: 13px !important; 
+		width: 83px !important;
+		height: 30px !important;
+		margin: -115px 0 0 -126px !important;
+  }
+  /*imagen mano*/
+  *[class].img_w158{ width: 158px !important; }
+  *[class].img_h106{ height: 106px !important; }
+  /*imagen celular*/
+  *[class].mini-celular{ 
+  	width: 134px !important; 
+  	height: 91px !important;
+  	margin: -9px -20px !important;
+  }
+  /*texto "Algunos aplicativos a tu disposicion"*/
+  *[class].texto-footer-mini{ 
+  	font-size: 12px !important; 
+		margin-left: 55px !important;
+  }
+  /*footer*/
+  *[class].h50{ height: 50px !important; }
+  *[class].m20{ margin: 20px auto !important; }
+  /*Logo Aon*/
+  *[class].aon-min{ 
+  	width: 53px !important; 
+		height: 23px !important;
+  }
+  /*Logo Indeci y cnat*/
+  *[class].auspiciadores_mini{ 
+  	width: 42px !important; 
+  	height: 42px !important;
+		margin-top: 17px !important;
+  }
+  /*call to action*/
+  *[class].call-mini{ 
+  	width: 132.5px !important; 
+  	height: 36.5px !important;
+  	font-size: 7px !important;
+  }
+  /*popup*/
+  *[class].popup-min{ 
+		display: inline-block !important;
+		visibility: hidden !important;
+		width: 200px !important; 
+    background: #FFFFFF;
+		font-size: 10px !important;
+		border: 1px solid #E11B22 !important; 
+		position: absolute !important;
+  	z-index: 3 !important;
+  	margin: -142px !important;
+  	padding: 5px !important;
+  }
+
+  *[class].popup-min-2{ 
+		display: inline-block !important;
+		visibility: hidden !important;
+		width: 200px !important; 
+    background: #FFFFFF;
+		font-size: 10px !important;
+		border: 1px solid #E11B22 !important; 
+		position: absolute !important;
+  	z-index: 3 !important;
+  	margin: -34px 0 0 -60px !important;
+  	padding: 5px !important;
+  }
+
+  *[class].celular:hover .popup-min {
+		visibility: visible !important;
+	}
+
+	*[class].mano-popup:hover .popup-min {
+		visibility: visible !important;
+	}
+
+	*[class].caja-reserva:hover .popup-min {
+		visibility: visible !important;
+	}
+
+	*[class].titulo-mochila-popup:hover .popup-min {
+		visibility: visible !important;
+	}
+
+	*[class].images-1:hover .popup-min-2 {
+		visibility: visible !important;
+	}
+
+	*[class].images-2:hover .popup-min-2 {
+		visibility: visible !important;
+	}
+
+	*[class].images-3:hover .popup-min-2 {
+		visibility: visible !important;
+	}
+
+	*[class].images-4:hover .popup-min-2 {
+		visibility: visible !important;
+	}
+
+	*[class].images-5:hover .popup-min-2 {
+		visibility: visible !important;
+	}
+
+	*[class].images-6:hover .popup-min-2 {
+		visibility: visible !important;
+	}
+
+	*[class].images-7:hover .popup-min-2 {
+		visibility: visible !important;
+	}
+
+	*[class].images-8:hover .popup-min-2 {
+		visibility: visible !important;
+  }
+
+	*[class].images-9:hover .popup-min-2 {
+		visibility: visible !important;
+	}
+
+	*[class].images-10:hover .popup-min-2 {
+		visibility: visible !important;
+	}
+
+	*[class].images-11:hover .popup-min-2 {
+		visibility: visible !important;
+	}
+
+	*[class].images-12:hover .popup-min-2 {
+		visibility: visible !important;
+	}
+  /*texto vertical*/
+  *[class].prevencion-vertical-min{ 
+  	font-size: 20px !important; 
+		margin: 81px 83px 0 -50px !important;
+		width: 123px !important;
+		height: 22px !important;
+  }
+  *[class].durante-vertical-min{ 
+  	font-size: 20px !important; 
+		margin: 97px 98px 0 -35px !important;
+		width: 93px !important;
+		height: 22px !important;
+  }
+  *[class].despues-vertical-min{ 
+  	font-size: 20px !important; 
+		margin: 80px 103px 0 -31px !important;
+		width: 84px !important;
+		height: 22px !important;
+  }
+  /*margin images*/
+  *[class].mini-images{
+  	margin: 21px 20px !important;
+  }
+  /*titulo mochila mini*/
+  *[class].texto-mochila-mini{ 
+  	font-size: 13px !important; 
+		width: 82px !important;
+		height: 30px;margin: 80px !important;
+  }
+}
+
+.textoCabecera {
+	font-weight: 600;
+	color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 60px;
+}
+
+.texto-1 {
+	font-size: 65px;
+	width: 350px;
+	height: 186px;
+	display: flex;
+	align-items: center;
+
+}
+
+.texto-2 {
+	font-size: 190px;
+	width: 617px;
+	height: 206px;
+	display: flex;
+	align-items: center;
+}
+
+.caja {
+	display: flex;
+	width: 400px;
+	height: 410px;
+	margin-left: -130px;
+}
+
+.prevencion {
+	background: #7AB800;
+}
+
+.durante {
+	background: #F0AB00;
+}
+
+.despues {
+	background: #D3CD8B;
+}
+
+.texto-3 {
+	transform: rotate(-90deg);
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.texto-prevencion {
+	color: #7AB800;
+	display: flex;
+	height: 54px;
+	width: 274px;
+	margin: 170px 35px 0 -95px;
+}
+
+.texto-durante {
+	color: #F0AB00;
+	display: flex;
+	height: 54px;
+	width: 274px;
+	margin: 125px 35px 0 -95px;
+}
+
+.texto-despues {
+	color: #D3CD8B;
+	display: flex;
+	height: 54px;
+	width: 274px;
+	margin: 125px 35px 0 -95px;
+}
+
+.mochila {
+	height: 366px;
+  margin: 20px 0 0 237px;
+}
+
+.titulo-mochila {
+	display: flex;
+	font-size: 25px;
+	font-weight: 900;
+	color: #E06919;
+	margin: 170px 0 0 50px;
+	width: 156px;
+	height: 60px;
+	text-decoration: none;
+}
+
+.titulo-reserva {
+	display: flex;
+	margin: 306px 0 0 -45px;
+	font-size: 25px;
+	font-weight: 900;
+	color: #D3CD8B;
+	width: 102px;
+	height: 60px;
+	text-decoration: none;
+}
+
+.caja-reserva {
+	width: 0;
+	height: 0;
+}
+
+.titulo-mochila-popup {
+	width: 0;
+	height: 0;
+}
+
+.mensaje-texto {
+	font-size: 25px;
+	font-weight: 900;
+	color: #E11B22;
+	display: flex;
+	width: 173px;
+	height: 60px;
+	text-decoration: none;
+}
+
+.mensaje-emergencia {
+	font-size: 25px;
+	font-weight: 900;
+	color: #E11B22;
+	position: relative;
+	top: 200px;
+	left: 260px;
+	width: 160px;
+	height: 60px;
+}
+
+.mano-celular {
+	margin: 45px 0;
+	width: 316px;
+	height: 212px;
+}
+
+.mano {
+	position: absolute;
+	width: 316px;
+  height: 212px;
+}
+
+.celular {
+	position: absolute;
+	margin: 23px 30px;
+}
+
+.mano-popup:hover .popup {
+	visibility: visible;
+}
+
+.celular:hover .popup {
+	visibility: visible;
+}
+
+.images {
+	margin: 42px 35px;
+	cursor: pointer;
+}
+
+.images-1:hover .popup {
+	visibility: visible;
+}
+
+.images-2:hover .popup {
+	visibility: visible;
+}
+
+.images-3:hover .popup {
+	visibility: visible;
+}
+
+.images-4:hover .popup {
+	visibility: visible;
+}
+
+.images-5:hover .popup {
+	visibility: visible;
+}
+
+.images-6:hover .popup {
+	visibility: visible;
+}
+
+.images-7:hover .popup {
+	visibility: visible;
+}
+
+.images-8:hover .popup {
+	visibility: visible;
+}
+
+.images-9:hover .popup {
+	visibility: visible;
+}
+
+.images-10:hover .popup {
+	visibility: visible;
+}
+
+.images-11:hover .popup {
+	visibility: visible;
+}
+
+.images-12:hover .popup {
+	visibility: visible;
+}
+
+.titulo-mochila-popup:hover .popup {
+	visibility: visible;
+}
+
+.caja-reserva:hover .popup {
+	visibility: visible;
+}
+
+.popup {
+	display: inline-block;
+	visibility: hidden;
+	width: 350px;
+	background: #FFFFFF;
+	font-size: 12px;
+	border: 1px solid #E11B22; 
+	/*opacity: 0;*/
+	position: absolute;
+  z-index: 3;
+  margin: -75px 0 0 -290px;
+  padding: 10px;
+}
+
+.logo-aon {
+	display: flex;
+	height: 46px;
+}
+
+.auspiciadores {
+	display: flex;
+	height: 85px;
+}
+
+.call-to-action {
+	width: 265px;
+	height: 73px;
+	font-size: 10px;
+	align-items: center;
+}
